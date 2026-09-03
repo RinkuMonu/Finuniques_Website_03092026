@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "jsx": "preserve",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["app/**/*.js", "components/**/*.js", "lib/**/*.js"],
+  "exclude": ["node_modules", ".next"]
+}

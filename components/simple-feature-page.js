@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { AppIcon } from "@/components/app-icon";
+
+export function SimpleFeaturePage({ eyebrow, title, description, features, action = "Get started", actionHref = "/contact" }) {
+  return <><section className="bg-gradient-to-br from-ink via-ocean to-ink py-20 text-white sm:py-28"><div className="page-shell"><p className="eyebrow text-sky-200">{eyebrow}</p><h1 className="mt-5 max-w-4xl text-5xl font-extrabold tracking-tight sm:text-7xl">{title}</h1><p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">{description}</p><Link href={actionHref} className="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-ink transition hover:-translate-y-0.5">{action} →</Link></div></section><section className="bg-white py-20"><div className="page-shell grid gap-5 md:grid-cols-3">{features.map(([icon,heading,text])=><article key={heading} className="rounded-3xl border border-ink/10 bg-cloud p-7"><span className="grid h-12 w-12 place-items-center rounded-2xl bg-ocean text-white"><AppIcon name={icon} className="h-6 w-6" /></span><h2 className="mt-7 text-xl font-extrabold">{heading}</h2><p className="mt-3 leading-7 text-ink/60">{text}</p></article>)}</div></section></>;
+}
