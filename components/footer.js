@@ -103,7 +103,7 @@ export function Footer() {
             <div className="space-y-6 text-sm text-ink/70">
               <div>
                 <p className="text-xs font-bold uppercase tracking-[.2em] text-ink/50">Monday - Friday</p>
-                <p className="mt-2 text-lg font-semibold text-ink">10:00 AM to 07:00 PM</p>
+                <p className="mt-2 text-lg font-semibold text-ink">9:30 AM to 6:30 PM</p>
               </div>
 
               <div>

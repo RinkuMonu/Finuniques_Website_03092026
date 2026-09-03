@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-ink">Availability</p>
-                <p className="mt-1 text-sm text-ink/70">Monday–Friday, 9:30–18:00 IST</p>
+                <p className="mt-1 text-sm text-ink/70">Monday–Saturday , 9:30 AM – 6:30 PM</p>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-ink">Location</p>
-                <p className="mt-1 text-sm text-ink/70">Bengaluru, India</p>
+                <p className="mt-1 text-sm text-ink/70">Jaipur, Rajasthan</p>
               </div>
             </div>
           </div>

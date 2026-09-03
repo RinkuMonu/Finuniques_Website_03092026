@@ -7,7 +7,24 @@ import { BadgeCheck, BarChart3, BriefcaseBusiness, Building2, ChevronDown, Circl
 import { BrandLogo } from "@/components/brand-logo";
 
 const dropdowns = [
+ 
   {
+    label: "Company",
+    links: [
+      ["About Finunique", "/about", "Meet the team building simpler payments"],
+      ["Contact", "/contact", "Talk to our payments specialists"],
+      ["Privacy & Security", "/privacy", "See how we protect your business"],
+    ],
+  },
+  {
+    label: "Partner with Us",
+    links: [
+      ["Business Partners", "/partners", "Offer Finunique services to your business network"],
+      ["Technology Partners", "/technologypartners", "Build connected solutions and integrations"],
+      ["Banking Partners", "/bankingpartners", "Collaborate on secure financial infrastructure"],
+    ],
+  },
+   {
     label: "Products",
     links: [["Payment Gateway", "/products/payment-gateway"], ["Hexa wallets/corporate cards", "/products/corporate-cards"], ["Subscription", "/products/easycollect"], ["Native OTP", "/products/native-otp"], ["Aadhaar Verification", "/products/aadhaar-verification"], ["PAN Verification", "/products/pan-verification"], ["Bank Account Verification", "/products/bank-verification"]],
   },
@@ -33,31 +50,13 @@ const dropdowns = [
     ],
   },
   {
-    label: "Company",
-    links: [
-      ["About Finunique", "/about", "Meet the team building simpler payments"],
-      ["Contact", "/contact", "Talk to our payments specialists"],
-      ["Privacy & Security", "/privacy", "See how we protect your business"],
-    ],
-  },
-  {
-    label: "Partner with Us",
-    links: [
-      ["Business Partners", "/partners", "Offer Finunique services to your business network"],
-      ["Technology Partners", "/partners", "Build connected solutions and integrations"],
-      ["Referral Partners", "/partners", "Refer businesses that need financial services"],
-      ["Channel Partners", "/partners", "Grow through merchant acquisition and support"],
-      ["Banking Partners", "/partners", "Collaborate on secure financial infrastructure"],
-    ],
-  },
-  {
     label: "Developers",
     links: [
-      ["API Documentation", "/developers", "Explore Finunique APIs and endpoints"],
-      ["Integration Guides", "/developers", "Follow implementation and onboarding guides"],
-      ["SDKs & Libraries", "/developers", "Build faster with supported development tools"],
-      ["Sandbox", "/developers", "Test payment and verification workflows"],
-      ["API Status", "/developers", "Review service availability and updates"],
+      ["API Documentation", "/developers/api-documentation", "Explore Finunique APIs and endpoints"],
+      ["Integration Guides", "/developers/integration-guides", "Follow implementation and onboarding guides"],
+      ["SDKs & Libraries", "/developers/sdks-libraries", "Build faster with supported development tools"],
+      ["Sandbox", "/developers/sandbox", "Test payment and verification workflows"],
+      ["API Status", "/developers/api-status", "Review service availability and updates"],
     ],
   },
 ];
@@ -65,8 +64,8 @@ const dropdowns = [
 const directLinks = [["Pricing", "/pricing"], ["Support", "/contact"]];
 
 const industryGroups = [
-  { label: "Travel", description: "Travel payments and booking services", icon: Send, links: [["Bus Booking", "/industries/travel"], ["Hotel Booking", "/industries/travel"], ["Train Booking", "/industries/travel"], ["Flight Booking", "/industries/travel"]] },
-  { label: "Lending", description: "Credit and lending solutions", icon: Landmark, links: [["Credit Card", "/industries/lending"], ["Loans", "/industries/lending"], ["Home Loan", "/industries/lending"], ["Instant Loan", "/industries/lending"], ["Personal Loan", "/industries/lending"], ["Business Loan", "/industries/lending"], ["Education Loan", "/industries/lending"], ["Car Loan", "/industries/lending"], ["Gold Loan", "/industries/lending"]] },
+  { label: "Travel", description: "Travel payments and booking services", icon: Send, links: [["Bus Booking", "/industries/travel/bus-booking"], ["Hotel Booking", "/industries/travel/hotel-booking"], ["Train Booking", "/industries/travel/train-booking"], ["Flight Booking", "/industries/travel/flight-booking"]] },
+  { label: "Lending", description: "Credit and lending solutions", icon: Landmark, links: [ ["Home Loan", "/industries/lending/home-loan"], ["Instant Loan", "/industries/lending/instant-loan"], ["Personal Loan", "/industries/lending/personal-loan"], ["Business Loan", "/industries/lending/business-loan"], ["Car Loan", "/industries/lending/car-loan"], ["Gold Loan", "/industries/lending/gold-loan"]] },
   { label: "Insurance", description: "Protection for people, health and assets", icon: ShieldCheck, links: [["Insurance", "/industries/insurance"], ["Health Insurance", "/industries/insurance"], ["Life Insurance", "/industries/insurance"], ["Motor Insurance", "/industries/insurance"], ["Travel Insurance", "/industries/insurance"]] },
   { label: "EdTech", description: "Payment solutions for the education sector", icon: FileCheck, links: [["Education Collections", "/industries/edtech"], ["Fee Payments", "/industries/edtech"]] },
   { label: "D2C & E-Commerce", description: "Checkout, payments and RTO solutions", icon: Store, links: [["Payment Gateway", "/industries/ecommerce"], ["Payment Links", "/industries/ecommerce"], ["Marketplace Split", "/industries/ecommerce"]] },

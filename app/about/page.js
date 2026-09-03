@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = { title: "About | Finunique" };
@@ -26,10 +27,34 @@ export default function About() {
               Finunique makes financial operations easier for growing businesses. We bring payment acceptance, verification, payouts and operational controls into a single platform so teams can focus on customers instead of fragmented systems.
             </p>
           </div>
-          <div className="rounded-[2rem] bg-white/5 p-10 text-white sm:p-12">
-            <p className="text-sm font-bold uppercase tracking-[.2em] text-white/60">Our mission</p>
-            <p className="mt-6 text-lg leading-8 text-white/70">
-              We believe every business deserves payment infrastructure that is reliable, transparent and built for real operating teams.
+          <div className="relative min-h-[12rem] overflow-hidden rounded-[2rem]">
+            <Image
+              src="/images/finunique-hero-dashboard.png"
+              alt="Payment terminal, card and security controls representing Finunique payment infrastructure"
+              fill
+              className="object-contain"
+              sizes="(min-width: 1924px) 32vw, 80vw"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white py-20 sm:py-24">
+        <div className="page-shell grid items-center gap-10 lg:grid-cols-[1.15fr_.85fr] lg:gap-16">
+          <div className="relative aspect-[16/9] overflow-hidden rounded-[2rem]">
+            <Image
+              src="/images/mission.jpg"
+              alt="Payment terminal, contactless card and security shield representing reliable payment infrastructure"
+              fill
+              className="object-contain"
+              sizes="(min-width: 1024px) 60vw, 100vw"
+            />
+          </div>
+          <div>
+            <p className="eyebrow text-ocean">Our mission</p>
+            <h2 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">Make every financial interaction feel simpler.</h2>
+            <p className="mt-6 max-w-xl text-lg leading-8 text-ink/70">
+                We believe every business deserves payment infrastructure that is reliable, transparent and built for real operating teams.
             </p>
           </div>
         </div>
