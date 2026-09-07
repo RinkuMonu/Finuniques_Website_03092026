@@ -66,10 +66,10 @@ const directLinks = [["Pricing", "/pricing"], ["Support", "/contact"]];
 const industryGroups = [
   { label: "Travel", description: "Travel payments and booking services", icon: Send, links: [["Bus Booking", "/industries/travel/bus-booking"], ["Hotel Booking", "/industries/travel/hotel-booking"], ["Train Booking", "/industries/travel/train-booking"], ["Flight Booking", "/industries/travel/flight-booking"]] },
   { label: "Lending", description: "Credit and lending solutions", icon: Landmark, links: [ ["Home Loan", "/industries/lending/home-loan"], ["Instant Loan", "/industries/lending/instant-loan"], ["Personal Loan", "/industries/lending/personal-loan"], ["Business Loan", "/industries/lending/business-loan"], ["Car Loan", "/industries/lending/car-loan"], ["Gold Loan", "/industries/lending/gold-loan"]] },
-  { label: "Insurance", description: "Protection for people, health and assets", icon: ShieldCheck, links: [["Insurance", "/industries/insurance"], ["Health Insurance", "/industries/insurance"], ["Life Insurance", "/industries/insurance"], ["Motor Insurance", "/industries/insurance"], ["Travel Insurance", "/industries/insurance"]] },
-  { label: "EdTech", description: "Payment solutions for the education sector", icon: FileCheck, links: [["Education Collections", "/industries/edtech"], ["Fee Payments", "/industries/edtech"]] },
-  { label: "D2C & E-Commerce", description: "Checkout, payments and RTO solutions", icon: Store, links: [["Payment Gateway", "/industries/ecommerce"], ["Payment Links", "/industries/ecommerce"], ["Marketplace Split", "/industries/ecommerce"]] },
-  { label: "WealthTech", description: "Simplify SIPs and fund flows", icon: BarChart3, links: [["Payment Collections", "/industries/wealthtech"], ["Business Payouts", "/industries/wealthtech"]] },
+  { label: "Insurance", description: "Protection for people, health and assets", icon: ShieldCheck, links: [["Insurance", "/industries/insurance"], ["Health Insurance", "/industries/insurance/healthinsurance"], ["Life Insurance", "/industries/insurance/lifeinsurance"], ["Motor Insurance", "/industries/insurance/motorinsurance"], ["Travel Insurance", "/industries/insurance/travelinsurance"]] },
+  { label: "EdTech", description: "Payment solutions for the education sector", icon: FileCheck, links: [["Education Collections", "/industries/edtech/educollections"], ["Fee Payments", "/industries/edtech/feepayments"]] },
+  { label: "D2C & E-Commerce", description: "Checkout, payments and RTO solutions", icon: Store, links: [["Payment Gateway", "/industries/ecommerce/paymentgateway"], ["Payment Links", "/industries/ecommerce/paymentlinks"],] },
+  { label: "WealthTech", description: "Simplify SIPs and fund flows", icon: BarChart3, links: [["Payment Collections", "/industries/wealthtech/paymentcollections"], ["Business Payouts", "/industries/wealthtech/businesspayouts"]] },
 ];
 
 const productGroups = [

@@ -48,9 +48,9 @@ const legalLinks = [
 
 const socials = [
   [Linkedin, "LinkedIn", "https://www.linkedin.com"],
-  [Instagram, "Instagram", "https://www.instagram.com"],
-  [Facebook, "Facebook", "https://www.facebook.com"],
-  [Youtube, "YouTube", "https://www.youtube.com"],
+  [Instagram, "Instagram", "https://www.instagram.com/finuniques"],
+  [Facebook, "Facebook", "https://www.facebook.com/share/1DaqmCydzd/"],
+  [Youtube, "YouTube", "https://www.linkedin.com/company/finunique-small-private-limited/"],
 ];
 
 const currentYear = new Date().getFullYear();

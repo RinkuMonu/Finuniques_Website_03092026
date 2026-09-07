@@ -60,7 +60,7 @@ function DefaultHeroAnimation() {
       <div className="absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-ocean/10" />
       <div className="absolute left-[8%] top-[23%] h-px w-[84%] bg-gradient-to-r from-transparent via-ocean/25 to-transparent" />
 
-      <div className="absolute left-1/2 top-1/2 z-10 w-[330px] -translate-x-1/2 -translate-y-1/2 rounded-[28px] border border-sky-100 bg-white p-5 shadow-[0_30px_90px_rgba(7,59,76,.14)] animate-card-float">
+      <div className="absolute left-1/4 -top-1 z-10 w-[330px] -translate-x-1/2 -translate-y-1/2 rounded-[28px] border border-sky-100 bg-white p-5 shadow-[0_30px_90px_rgba(7,59,76,.14)] animate-card-float">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.16em] text-ocean">Finunique Checkout</p>
