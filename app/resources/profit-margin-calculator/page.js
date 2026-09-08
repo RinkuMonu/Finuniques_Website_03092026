@@ -274,24 +274,19 @@ export default function ProfitMarginCalculatorPage() {
                   <p className="text-xs text-slate-500">
                     Revenue
                   </p>
-
                   <p className="mt-2 font-semibold">
                     {formatCurrency(revenueValue)}
                   </p>
                 </div>
-
                 <div className="rounded-2xl bg-white/5 p-5">
                   <p className="text-xs text-slate-500">
                     Cost
                   </p>
-
                   <p className="mt-2 font-semibold">
                     {formatCurrency(costValue)}
                   </p>
                 </div>
-
               </div>
-
             </div>
           </div>
         </div>
@@ -303,19 +298,16 @@ export default function ProfitMarginCalculatorPage() {
         className="px-6 py-20 lg:px-8"
       >
         <div className="mx-auto max-w-7xl">
-
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               How It Works
             </p>
-
             <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
               Calculate profitability in three simple steps
             </h2>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-
             {[
               {
                 number: "01",
@@ -539,12 +531,10 @@ export default function ProfitMarginCalculatorPage() {
                     size={21}
                     className="mt-1 shrink-0 text-blue-600"
                   />
-
                   <div>
                     <h3 className="font-bold text-slate-900">
                       {faq.question}
                     </h3>
-
                     <p className="mt-2 leading-7 text-slate-600">
                       {faq.answer}
                     </p>
@@ -552,7 +542,6 @@ export default function ProfitMarginCalculatorPage() {
                 </div>
               </div>
             ))}
-
           </div>
         </div>
       </section>
@@ -560,7 +549,6 @@ export default function ProfitMarginCalculatorPage() {
       {/* ================= CTA ================= */}
       <section className="px-6 py-20 lg:px-8">
         <div className="mx-auto max-w-6xl overflow-hidden rounded-3xl bg-blue-600 px-8 py-14 text-center sm:px-12">
-
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
             Know your numbers. Grow your business.
           </h2>
