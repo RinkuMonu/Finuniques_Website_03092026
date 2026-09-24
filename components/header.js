@@ -25,6 +25,14 @@ const dropdowns = [
     ],
   },
    {
+    label: "API Partners",
+    links: [
+      ["What do we Provide?", "/apipartners/whatwedo", "Discover the APIs, features, and services Finunique provides"],
+      ["How does it Work?", "/apipartners/howdoesitwork", "Learn how Finunique works and follow the integration process"],
+      ["How do we become a partner and integrate?", "/apipartners/becomeapartner", "Learn how to become a Finunique partner and integrate with our platform"],
+    ],
+  },
+   {
     label: "Products",
     links: [["Payment Gateway", "/products/payment-gateway"], ["Hexa wallets/corporate cards", "/products/corporate-cards"], ["Subscription", "/products/easycollect"], ["Native OTP", "/products/native-otp"], ["Aadhaar Verification", "/products/aadhaar-verification"], ["PAN Verification", "/products/pan-verification"], ["Bank Account Verification", "/products/bank-verification"]],
   },
@@ -39,26 +47,26 @@ const dropdowns = [
       ["WealthTech", "/industries/wealthtech", "WealthTech Payment Solutions, Simplify SIPs & Fund Flows"],
     ],
   },
-  {
-    label: "Resources",
-    links: [
-      ["Blog", "/resources/blog", "Learn more with Finunique"],
-      ["GST Calculator", "/resources/gst-calculator", "Calculate GST-inclusive and exclusive values"],
-      ["Profit Margin Calculator", "/resources/profit-margin-calculator", "Estimate profit, cost and selling margins"],
-      ["ROI Calculator", "/resources/roi-calculator", "Measure returns on your business investment"],
-      ["EMI Calculator", "/resources/emi-calculator", "Estimate monthly loan instalments"],
-    ],
-  },
-  {
-    label: "Developers",
-    links: [
-      ["API Documentation", "/developers/api-documentation", "Explore Finunique APIs and endpoints"],
-      ["Integration Guides", "/developers/integration-guides", "Follow implementation and onboarding guides"],
-      ["SDKs & Libraries", "/developers/sdks-libraries", "Build faster with supported development tools"],
-      ["Sandbox", "/developers/sandbox", "Test payment and verification workflows"],
-      ["API Status", "/developers/api-status", "Review service availability and updates"],
-    ],
-  },
+  // {
+  //   label: "Resources",
+  //   links: [
+  //     ["Blog", "/resources/blog", "Learn more with Finunique"],
+  //     ["GST Calculator", "/resources/gst-calculator", "Calculate GST-inclusive and exclusive values"],
+  //     ["Profit Margin Calculator", "/resources/profit-margin-calculator", "Estimate profit, cost and selling margins"],
+  //     ["ROI Calculator", "/resources/roi-calculator", "Measure returns on your business investment"],
+  //     ["EMI Calculator", "/resources/emi-calculator", "Estimate monthly loan instalments"],
+  //   ],
+  // },
+  // {
+  //   label: "Developers",
+  //   links: [
+  //     ["API Documentation", "/developers/api-documentation", "Explore Finunique APIs and endpoints"],
+  //     ["Integration Guides", "/developers/integration-guides", "Follow implementation and onboarding guides"],
+  //     ["SDKs & Libraries", "/developers/sdks-libraries", "Build faster with supported development tools"],
+  //     ["Sandbox", "/developers/sandbox", "Test payment and verification workflows"],
+  //     ["API Status", "/developers/api-status", "Review service availability and updates"],
+  //   ],
+  // },
 ];
 
 const directLinks = [["Pricing", "/pricing"], ["Support", "/contact"]];
