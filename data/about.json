@@ -1,0 +1,92 @@
+{
+  "stats": [
+    {
+      "value": "150+",
+      "label": "Innovators & Engineers"
+    },
+    {
+      "value": "3",
+      "label": "Global Offices"
+    },
+    {
+      "value": "99.99%",
+      "label": "Uptime Reliability"
+    },
+    {
+      "value": "100%",
+      "label": "Bootstrapped & Profitable"
+    }
+  ],
+  "storyTimeline": [
+    {
+      "year": "2020",
+      "title": "The Inception",
+      "description": "Started with a vision to simplify complex financial operations for Indian businesses."
+    },
+    {
+      "year": "2021",
+      "title": "First 1,000 Merchants",
+      "description": "Crossed our first major milestone, processing daily transactions with zero downtime."
+    },
+    {
+      "year": "2023",
+      "title": "Expanding Horizons",
+      "description": "Launched our unified dashboard and API infrastructure, expanding across 3 major cities."
+    },
+    {
+      "year": "2025",
+      "title": "Scaling Trust",
+      "description": "Trusted by over 100,000 businesses, becoming a premier payments infrastructure partner."
+    }
+  ],
+  "team": [
+    {
+      "name": "Arjun Mehta",
+      "role": "Co-Founder & CEO",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop",
+      "linkedin": "#"
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Co-Founder & CTO",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop",
+      "linkedin": "#"
+    },
+    {
+      "name": "Rohan Desai",
+      "role": "Head of Product",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop",
+      "linkedin": "#"
+    },
+    {
+      "name": "Sneha Reddy",
+      "role": "VP of Engineering",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
+      "linkedin": "#"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Sequoia",
+      "logo": "https://logo.clearbit.com/sequoiacap.com"
+    },
+    {
+      "name": "Lightspeed",
+      "logo": "https://logo.clearbit.com/lsvp.com"
+    },
+    {
+      "name": "Accel",
+      "logo": "https://logo.clearbit.com/accel.com"
+    },
+    {
+      "name": "Y Combinator",
+      "logo": "https://logo.clearbit.com/ycombinator.com"
+    }
+  ],
+  "cultureImages": [
+    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1515169067868-5387ec356754?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop"
+  ]
+}
