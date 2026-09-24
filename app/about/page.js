@@ -28,7 +28,7 @@ export default function About() {
               Finunique makes financial operations easier for growing businesses. We bring payment acceptance, verification, payouts and operational controls into a single platform so teams can focus on customers instead of fragmented systems.
             </p>
           </div>
-          <div className="relative min-h-[12rem] overflow-hidden rounded-[2rem]">
+          {/* <div className="relative min-h-[12rem] overflow-hidden rounded-[2rem]">
             <Image
               src="/images/finunique-hero-dashboard.png"
               alt="Payment terminal, card and security controls representing Finunique payment infrastructure"
@@ -36,7 +36,7 @@ export default function About() {
               className="object-contain"
               sizes="(min-width: 1924px) 32vw, 80vw"
             />
-          </div>
+          </div> */}
         </div>
       </section>
 

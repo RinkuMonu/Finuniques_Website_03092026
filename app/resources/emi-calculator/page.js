@@ -644,7 +644,6 @@ export default function EmiCalculatorPage() {
               <h3 className="text-xl font-bold">
                 Example Calculation
               </h3>
-
             </div>
 
 

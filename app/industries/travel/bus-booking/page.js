@@ -138,9 +138,7 @@ export default function BusBookingPage() {
                   </p>
                 </div>
 
-                <div className="absolute bottom-8 right-9 flex h-10 w-10 translate-y-3 items-center justify-center rounded-full border border-[#0797D0]/20 bg-white text-[#0797D0] opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                  →
-                </div>
+             
               </motion.div>
             );
           })}
